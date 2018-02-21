@@ -4,7 +4,7 @@ GEM
     builder (3.2.3)
     faraday (0.14.0)
       multipart-post (>= 1.2, < 3)
-    geminabox (0.13.15)
+    geminabox (1.0.0)
       builder
       faraday
       httpclient (>= 2.2.7)
@@ -13,16 +13,16 @@ GEM
       sinatra (>= 1.2.7)
     httpclient (2.8.3)
     multipart-post (2.0.0)
-    mustermann (1.0.1)
+    mustermann (1.0.2)
     nesty (1.0.2)
     rack (2.0.4)
-    rack-protection (2.0.0)
+    rack-protection (2.0.1)
       rack
     reentrant_flock (0.1.1)
-    sinatra (2.0.0)
+    sinatra (2.0.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.0)
+      rack-protection (= 2.0.1)
       tilt (~> 2.0)
     tilt (2.0.8)
 
