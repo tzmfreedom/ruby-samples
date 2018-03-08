@@ -1,3 +1,5 @@
 en:
-  hoge: fuga
+  hoge: :fuga
+  fuga: 'hello'
   hello: true
+  proc: ->{ 'hello' }

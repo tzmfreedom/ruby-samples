@@ -4,6 +4,9 @@ require 'i18n'
 
 I18n.load_path << 'locales/en.yml'
 puts I18n.t('hoge')
+puts I18n.t('fuga')
+puts I18n.t('hello')
+puts I18n.t('proc')
 
 I18n.load_path = ['locales/ja.rb']
 I18n.locale = :ja
