@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mmapped_string (0.1.0)
+    yomikomu (0.4.1)
+      mmapped_string
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  yomikomu
+
+BUNDLED WITH
+   1.16.1
