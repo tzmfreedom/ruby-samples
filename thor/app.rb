@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'thor'
+
 class App < Thor
   namespace :my
   desc "hoge", "example of hoge"
@@ -20,6 +22,7 @@ class App < Thor
     puts options[:file]
   end
 
+  default_task :foo
 end
 
 App.start
