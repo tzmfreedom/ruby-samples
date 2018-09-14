@@ -1,10 +1,11 @@
 class SampleParser # 実際に生成されるパーサーのクラス名
 
-token ASSIGNMENT VARIABLE INTEGER # プログラムを構成するトークンの一覧
+token ASSIGNMENT VARIABLE INTEGER STRING R_BRACE L_BRACE
 start statements
 
 rule # ここからendまで規則を表す
   statement  : VARIABLE ASSIGNMENT INTEGER { result = [:assignment, val[0], val[2]] }
+             | L_BRACE statement R_BRACE { result = val[1] }
   statements : statement { result = [val[0]] }
              | statements statement { result = val[0].push(val[1]) }
 end
@@ -15,9 +16,14 @@ end
 
 def parse(program)
   @tokens = []
+  pp program
   # トークンはそれぞれ[トークンを表すシンボル, 値]の配列の形にする必要がある
   until program.empty? # 字句解析
     case program
+    when '{'
+      @tokens.push [:L_BRACE, '{']
+    when '}'
+      @tokens.push [:R_BRACE, '}']
     when /\A\s+/
       # nop
     when /\A[A-z][\w]*\b/
