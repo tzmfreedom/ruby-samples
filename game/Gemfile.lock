@@ -1,15 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    faraday (0.15.4)
-      multipart-post (>= 1.2, < 3)
-    multipart-post (2.0.0)
+    gosu (0.14.4)
+    gosu-examples (1.0.5)
+      gosu (>= 0.11.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  faraday
+  gosu
+  gosu-examples
 
 BUNDLED WITH
    1.16.2
