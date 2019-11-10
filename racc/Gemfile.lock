@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    racc (1.4.14)
-    rexical (1.0.5)
+    racc (1.4.15)
+    rexical (1.0.7)
 
 PLATFORMS
   ruby
