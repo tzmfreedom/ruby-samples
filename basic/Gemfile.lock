@@ -80,7 +80,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     raabro (1.1.6)
-    rack (2.0.6)
+    rack (2.0.8)
     rqrcode (0.10.1)
       chunky_png (~> 1.0)
     rufus-scheduler (3.5.2)
