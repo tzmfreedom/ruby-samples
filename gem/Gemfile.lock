@@ -15,7 +15,7 @@ GEM
     multipart-post (2.0.0)
     mustermann (1.0.3)
     nesty (1.0.2)
-    rack (2.0.6)
+    rack (2.2.3)
     rack-protection (2.0.4)
       rack
     reentrant_flock (0.1.1)
