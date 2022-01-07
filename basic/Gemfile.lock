@@ -59,7 +59,7 @@ GEM
     fugit (1.1.6)
       et-orbi (~> 1.1, >= 1.1.6)
       raabro (~> 1.1)
-    google-protobuf (3.6.1)
+    google-protobuf (3.19.2)
     hike (1.2.3)
     i18n (1.1.1)
       concurrent-ruby (~> 1.0)
